@@ -1,0 +1,130 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	background: url("../Background Images/Painting Brush.jpg") no-repeat center center fixed;
+	background-size: cover;
+    background-size: 100%;
+}
+
+.tint {
+    z-index: 1;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.5);    
+}
+
+.fileUpload
+{
+	color: #FFFFFF;
+	font: 900 15px 'Liu Jian Mao Cao', cursive;
+}
+
+.container{
+	max-width: 600px;
+	margin: 300px auto;
+	text-align: center;
+}
+
+h1{
+	color: #FFFFFF;
+	font: 900 96px 'Liu Jian Mao Cao', cursive;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 300px;
+}
+
+h2{
+	color: #FFFFFF;
+}
+
+.btn{
+	
+	/*background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background: linear-gradient(to right, rgba(245,37,0,0.65) 0%, rgba(112,29,18,0.83) 51%, rgba(138,127,126,1) 100%);
+	*/
+	background: linear-gradient(to right, rgba(255,71,71,1) 0%, rgba(187,12,245,0.82) 51%, rgba(39,195,230,0.65) 100%);
+	background-size: 400%;
+	border-radius:90px;
+	padding: 20px 48px;
+	color: #FFFFFF;
+	font: 20px 'McLaren', cursive;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	-webkit-transition: box-shadow 0.5s ease;
+	transition: box-shadow 0.5s ease;
+}
+
+.btn:hover{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+	-webkit-transition: box-shadow 0.5s ease;
+	transition: box-shadow 0.5s ease;
+	animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+
+.Sign_In{
+	font: 900 13px 'Indie Flower', cursive;
+	height: 20%;
+	width: 20%;
+	position: absolute;
+	top: 65px;
+	left: 1075px;
+}
+
+.User
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.LogOut{
+	color: #FFFFFF;
+	text-decoration: none;
+    
+}
+.LogOut2{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.SignIn{
+	color: #FFFFFF;
+	text-decoration: none;
+	font: 900 15px 'Indie Flower', cursive;
+}
+
+.SignUp{
+	color: #FFFFFF;
+	text-decoration: none;
+	font: 900 15px 'Indie Flower', cursive;
+	padding: 15px 40px;
+}
+
+.Logo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
